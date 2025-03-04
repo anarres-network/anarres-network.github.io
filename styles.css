@@ -1,24 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Contact Us</h1>
-        <p>This is the contact page.</p>
-    </main>
-</body>
-</html>
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* Menu Bar */
+nav {
+  background-color: #4CAF50;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #C8A2C8; /* Lilac for hover effect */
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 100px 20px 50px;
+  background-color: #C0C0C0; /* Silver */
+}
+
+header h1 {
+  color: #4CAF50; /* Green */
+}
+
+header button {
+  background-color: #C8A2C8; /* Lilac */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #4CAF50; /* Green */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #C0C0C0; /* Silver */
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer a {
+  color: #4CAF50; /* Green */
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #C8A2C8; /* Lilac */
+}
